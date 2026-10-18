@@ -68,7 +68,11 @@ flowchart TD
 
 ## 🚀 Quickstart Guide
 
-### Option 1: Native Run (Windows / Linux / macOS)
+### Option 1: Run via Open Source Link
+
+###[AeroSync.ai]([url](https://aerosync-ai-xi.vercel.app/))
+
+### Option 2: Native Run (Windows / Linux / macOS)
 
 #### Prerequisites:
 - Python 3.10+
@@ -101,7 +105,7 @@ chmod +x run.sh build_engine.sh
 
 ---
 
-### Option 2: Docker Container (1-Click Deployment)
+### Option 3: Docker Container (1-Click Deployment)
 
 The project includes a multi-stage `Dockerfile` that compiles the C++ native engine and sets up the Python web service inside a lightweight container:
 
